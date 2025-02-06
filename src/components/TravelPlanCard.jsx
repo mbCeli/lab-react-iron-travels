@@ -3,10 +3,10 @@ export default function TravelPlanCard({ plan, deletePlan }) {
   return (
     <>
       <div key={plan.id}>
-        {/* <img src={plan.image} alt="place image" /> */}
-{/*         <h2>
+        <img src={plan.image} alt="place image" />
+        <h2>
           {plan.destination} ({plan.days} days)
-        </h2> */}
+        </h2>
         <p>{plan.description}</p>
         <h3>Price: {plan.totalCost}</h3>
         <p className="dealt">{plan.totalCost <= 350 && "Great Deal"}</p>

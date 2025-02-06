@@ -14,8 +14,6 @@ function App() {
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
       <TravelList />
-      <TravelPlanCard />
-      
     </>
   );
 }
